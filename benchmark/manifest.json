@@ -1,0 +1,1584 @@
+{
+ "seed": 0,
+ "attempts": 40,
+ "rejected": 0,
+ "cases": [
+  {
+   "name": "case_000",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__inv_1"
+   ],
+   "gds": "case_000.gds",
+   "injected": [
+    {
+     "rule": "m1.1",
+     "layer": "met1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      3.61,
+      4.56,
+      3.6999999999999997,
+      6.34
+     ],
+     "current": 0.09,
+     "required": 0.14,
+     "fix_hint": "widen the met1 wire from 0.09 um to at least 0.14 um",
+     "min_fix_area": 0.089
+    }
+   ]
+  },
+  {
+   "name": "case_001",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nor2_2"
+   ],
+   "gds": "case_001.gds",
+   "injected": [
+    {
+     "rule": "li.3",
+     "layer": "li1",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      4.81,
+      5.76,
+      5.46,
+      6.76
+     ],
+     "current": 0.11,
+     "required": 0.17,
+     "fix_hint": "move the two li1 shapes apart from 0.11 um to at least 0.17 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_002",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nand2_2"
+   ],
+   "gds": "case_002.gds",
+   "injected": [
+    {
+     "rule": "m2.2",
+     "layer": "met2",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      0.11,
+      -3.74,
+      0.67,
+      -2.74
+     ],
+     "current": 0.11,
+     "required": 0.14,
+     "fix_hint": "move the two met2 shapes apart from 0.11 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_003",
+   "cells": [
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nand2_1"
+   ],
+   "gds": "case_003.gds",
+   "injected": [
+    {
+     "rule": "m1.5",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      1.165,
+      -2.66,
+      1.5,
+      -2.255
+     ],
+     "current": 0.045,
+     "required": 0.06,
+     "fix_hint": "met1 overhang of the mcon is 0.045 um (left) and 0.045 um (top); extend either the left or the top met1 edge to at least 0.06 um",
+     "min_fix_area": 0.005
+    }
+   ]
+  },
+  {
+   "name": "case_004",
+   "cells": [
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__nand2_2"
+   ],
+   "gds": "case_004.gds",
+   "injected": [
+    {
+     "rule": "poly.2",
+     "layer": "poly",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      2.71,
+      5.36,
+      3.5700000000000003,
+      6.36
+     ],
+     "current": 0.19,
+     "required": 0.21,
+     "fix_hint": "move the two poly shapes apart from 0.19 um to at least 0.21 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_005",
+   "cells": [
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__nor2_2"
+   ],
+   "gds": "case_005.gds",
+   "injected": [
+    {
+     "rule": "m1.2",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      0.31,
+      -3.34,
+      0.8800000000000001,
+      -2.34
+     ],
+     "current": 0.12,
+     "required": 0.14,
+     "fix_hint": "move the two met1 shapes apart from 0.12 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_006",
+   "cells": [
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__nor2_2"
+   ],
+   "gds": "case_006.gds",
+   "injected": [
+    {
+     "rule": "li.6",
+     "layer": "li1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      -1.69,
+      0.36,
+      -1.52,
+      0.54
+     ],
+     "current": 0.0306,
+     "required": 0.0561,
+     "fix_hint": "grow the li1 island from 0.0306 um2 to at least 0.0561 um2",
+     "min_fix_area": 0.0255
+    }
+   ]
+  },
+  {
+   "name": "case_007",
+   "cells": [
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_1"
+   ],
+   "gds": "case_007.gds",
+   "injected": [
+    {
+     "rule": "m2.6",
+     "layer": "met2",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      4.11,
+      -2.44,
+      4.3100000000000005,
+      -2.14
+     ],
+     "current": 0.06,
+     "required": 0.0676,
+     "fix_hint": "grow the met2 island from 0.06 um2 to at least 0.0676 um2",
+     "min_fix_area": 0.0076
+    }
+   ]
+  },
+  {
+   "name": "case_008",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__buf_1"
+   ],
+   "gds": "case_008.gds",
+   "injected": [
+    {
+     "rule": "li.1",
+     "layer": "li1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      -1.39,
+      6.26,
+      -1.23,
+      7.26
+     ],
+     "current": 0.16,
+     "required": 0.17,
+     "fix_hint": "widen the li1 wire from 0.16 um to at least 0.17 um",
+     "min_fix_area": 0.01
+    }
+   ]
+  },
+  {
+   "name": "case_009",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__inv_1"
+   ],
+   "gds": "case_009.gds",
+   "injected": [
+    {
+     "rule": "m2.1",
+     "layer": "met2",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      -1.39,
+      5.36,
+      -1.285,
+      6.885
+     ],
+     "current": 0.105,
+     "required": 0.14,
+     "fix_hint": "widen the met2 wire from 0.105 um to at least 0.14 um",
+     "min_fix_area": 0.0534
+    }
+   ]
+  },
+  {
+   "name": "case_010",
+   "cells": [
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__nor2_1"
+   ],
+   "gds": "case_010.gds",
+   "injected": [
+    {
+     "rule": "m1.6",
+     "layer": "met1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      0.21,
+      -1.64,
+      0.41000000000000003,
+      -1.43
+     ],
+     "current": 0.042,
+     "required": 0.083,
+     "fix_hint": "grow the met1 island from 0.042 um2 to at least 0.083 um2",
+     "min_fix_area": 0.041
+    }
+   ]
+  },
+  {
+   "name": "case_011",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__nand2_2"
+   ],
+   "gds": "case_011.gds",
+   "injected": [
+    {
+     "rule": "poly.1a",
+     "layer": "poly",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      -0.99,
+      -3.34,
+      -0.89,
+      -1.7399999999999998
+     ],
+     "current": 0.1,
+     "required": 0.15,
+     "fix_hint": "widen the poly wire from 0.1 um to at least 0.15 um",
+     "min_fix_area": 0.08
+    }
+   ]
+  },
+  {
+   "name": "case_012",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nand2_1"
+   ],
+   "gds": "case_012.gds",
+   "injected": [
+    {
+     "rule": "m1.1",
+     "layer": "met1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      1.01,
+      5.26,
+      1.135,
+      6.54
+     ],
+     "current": 0.125,
+     "required": 0.14,
+     "fix_hint": "widen the met1 wire from 0.125 um to at least 0.14 um",
+     "min_fix_area": 0.0192
+    }
+   ]
+  },
+  {
+   "name": "case_013",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nand2_1"
+   ],
+   "gds": "case_013.gds",
+   "injected": [
+    {
+     "rule": "li.3",
+     "layer": "li1",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      7.91,
+      5.06,
+      8.61,
+      6.06
+     ],
+     "current": 0.16,
+     "required": 0.17,
+     "fix_hint": "move the two li1 shapes apart from 0.16 um to at least 0.17 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_014",
+   "cells": [
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nor2_1"
+   ],
+   "gds": "case_014.gds",
+   "injected": [
+    {
+     "rule": "m2.2",
+     "layer": "met2",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      -1.39,
+      -2.44,
+      -0.8649999999999999,
+      -1.44
+     ],
+     "current": 0.075,
+     "required": 0.14,
+     "fix_hint": "move the two met2 shapes apart from 0.075 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_015",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nor2_1"
+   ],
+   "gds": "case_015.gds",
+   "injected": [
+    {
+     "rule": "m1.5",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      3.965,
+      -2.7600000000000002,
+      4.3,
+      -2.355
+     ],
+     "current": 0.03,
+     "required": 0.06,
+     "fix_hint": "met1 overhang of the mcon is 0.045 um (left) and 0.03 um (top); extend either the left or the top met1 edge to at least 0.06 um",
+     "min_fix_area": 0.0048
+    }
+   ]
+  },
+  {
+   "name": "case_016",
+   "cells": [
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__nand3_1"
+   ],
+   "gds": "case_016.gds",
+   "injected": [
+    {
+     "rule": "poly.2",
+     "layer": "poly",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      3.81,
+      -3.14,
+      4.66,
+      -2.14
+     ],
+     "current": 0.18,
+     "required": 0.21,
+     "fix_hint": "move the two poly shapes apart from 0.18 um to at least 0.21 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_017",
+   "cells": [
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__nand3_1"
+   ],
+   "gds": "case_017.gds",
+   "injected": [
+    {
+     "rule": "m1.2",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      4.31,
+      -3.44,
+      4.85,
+      -2.44
+     ],
+     "current": 0.09,
+     "required": 0.14,
+     "fix_hint": "move the two met1 shapes apart from 0.09 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_018",
+   "cells": [
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__nand2_2"
+   ],
+   "gds": "case_018.gds",
+   "injected": [
+    {
+     "rule": "li.6",
+     "layer": "li1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      6.11,
+      -2.04,
+      6.28,
+      -1.745
+     ],
+     "current": 0.0502,
+     "required": 0.0561,
+     "fix_hint": "grow the li1 island from 0.0502 um2 to at least 0.0561 um2",
+     "min_fix_area": 0.0059
+    }
+   ]
+  },
+  {
+   "name": "case_019",
+   "cells": [
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__nor2_2"
+   ],
+   "gds": "case_019.gds",
+   "injected": [
+    {
+     "rule": "m2.6",
+     "layer": "met2",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      5.81,
+      4.16,
+      6.01,
+      4.44
+     ],
+     "current": 0.056,
+     "required": 0.0676,
+     "fix_hint": "grow the met2 island from 0.056 um2 to at least 0.0676 um2",
+     "min_fix_area": 0.0116
+    }
+   ]
+  },
+  {
+   "name": "case_020",
+   "cells": [
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nand2_1"
+   ],
+   "gds": "case_020.gds",
+   "injected": [
+    {
+     "rule": "li.1",
+     "layer": "li1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      4.21,
+      4.56,
+      4.305,
+      6.244999999999999
+     ],
+     "current": 0.095,
+     "required": 0.17,
+     "fix_hint": "widen the li1 wire from 0.095 um to at least 0.17 um",
+     "min_fix_area": 0.1264
+    },
+    {
+     "rule": "m2.6",
+     "layer": "met2",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      6.61,
+      6.76,
+      6.8100000000000005,
+      7.075
+     ],
+     "current": 0.063,
+     "required": 0.0676,
+     "fix_hint": "grow the met2 island from 0.063 um2 to at least 0.0676 um2",
+     "min_fix_area": 0.0046
+    }
+   ]
+  },
+  {
+   "name": "case_021",
+   "cells": [
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nand2_1"
+   ],
+   "gds": "case_021.gds",
+   "injected": [
+    {
+     "rule": "m2.1",
+     "layer": "met2",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      0.01,
+      -3.24,
+      0.09,
+      -1.2400000000000002
+     ],
+     "current": 0.08,
+     "required": 0.14,
+     "fix_hint": "widen the met2 wire from 0.08 um to at least 0.14 um",
+     "min_fix_area": 0.12
+    },
+    {
+     "rule": "li.1",
+     "layer": "li1",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      2.81,
+      5.36,
+      2.9450000000000003,
+      6.545
+     ],
+     "current": 0.135,
+     "required": 0.17,
+     "fix_hint": "widen the li1 wire from 0.135 um to at least 0.17 um",
+     "min_fix_area": 0.0415
+    }
+   ]
+  },
+  {
+   "name": "case_022",
+   "cells": [
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__nor2_2"
+   ],
+   "gds": "case_022.gds",
+   "injected": [
+    {
+     "rule": "m1.6",
+     "layer": "met1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      3.11,
+      3.96,
+      3.31,
+      4.32
+     ],
+     "current": 0.072,
+     "required": 0.083,
+     "fix_hint": "grow the met1 island from 0.072 um2 to at least 0.083 um2",
+     "min_fix_area": 0.011
+    },
+    {
+     "rule": "m2.1",
+     "layer": "met2",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      1.21,
+      5.86,
+      1.305,
+      7.545
+     ],
+     "current": 0.095,
+     "required": 0.14,
+     "fix_hint": "widen the met2 wire from 0.095 um to at least 0.14 um",
+     "min_fix_area": 0.0758
+    }
+   ]
+  },
+  {
+   "name": "case_023",
+   "cells": [
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__buf_1"
+   ],
+   "gds": "case_023.gds",
+   "injected": [
+    {
+     "rule": "poly.1a",
+     "layer": "poly",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      0.71,
+      5.86,
+      0.83,
+      7.195
+     ],
+     "current": 0.12,
+     "required": 0.15,
+     "fix_hint": "widen the poly wire from 0.12 um to at least 0.15 um",
+     "min_fix_area": 0.04
+    },
+    {
+     "rule": "m1.6",
+     "layer": "met1",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      -0.99,
+      -2.64,
+      -0.79,
+      -2.39
+     ],
+     "current": 0.05,
+     "required": 0.083,
+     "fix_hint": "grow the met1 island from 0.05 um2 to at least 0.083 um2",
+     "min_fix_area": 0.033
+    }
+   ]
+  },
+  {
+   "name": "case_024",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nor2_1"
+   ],
+   "gds": "case_024.gds",
+   "injected": [
+    {
+     "rule": "m1.1",
+     "layer": "met1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      2.51,
+      -2.94,
+      2.6149999999999998,
+      -1.415
+     ],
+     "current": 0.105,
+     "required": 0.14,
+     "fix_hint": "widen the met1 wire from 0.105 um to at least 0.14 um",
+     "min_fix_area": 0.0534
+    },
+    {
+     "rule": "poly.1a",
+     "layer": "poly",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      4.11,
+      4.86,
+      4.195,
+      6.74
+     ],
+     "current": 0.085,
+     "required": 0.15,
+     "fix_hint": "widen the poly wire from 0.085 um to at least 0.15 um",
+     "min_fix_area": 0.1222
+    }
+   ]
+  },
+  {
+   "name": "case_025",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nor2_1"
+   ],
+   "gds": "case_025.gds",
+   "injected": [
+    {
+     "rule": "li.3",
+     "layer": "li1",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      1.41,
+      4.56,
+      2.075,
+      5.56
+     ],
+     "current": 0.125,
+     "required": 0.17,
+     "fix_hint": "move the two li1 shapes apart from 0.125 um to at least 0.17 um",
+     "min_fix_area": 0.0
+    },
+    {
+     "rule": "m1.1",
+     "layer": "met1",
+     "shape_ids": [
+      3
+     ],
+     "bbox": [
+      0.61,
+      8.96,
+      0.705,
+      10.645000000000001
+     ],
+     "current": 0.095,
+     "required": 0.14,
+     "fix_hint": "widen the met1 wire from 0.095 um to at least 0.14 um",
+     "min_fix_area": 0.0758
+    },
+    {
+     "rule": "poly.1a",
+     "layer": "poly",
+     "shape_ids": [
+      4
+     ],
+     "bbox": [
+      -1.59,
+      2.16,
+      -1.475,
+      3.55
+     ],
+     "current": 0.115,
+     "required": 0.15,
+     "fix_hint": "widen the poly wire from 0.115 um to at least 0.15 um",
+     "min_fix_area": 0.0486
+    }
+   ]
+  },
+  {
+   "name": "case_026",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__nand2_2"
+   ],
+   "gds": "case_026.gds",
+   "injected": [
+    {
+     "rule": "m2.2",
+     "layer": "met2",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      8.01,
+      5.86,
+      8.54,
+      6.86
+     ],
+     "current": 0.08,
+     "required": 0.14,
+     "fix_hint": "move the two met2 shapes apart from 0.08 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    },
+    {
+     "rule": "li.3",
+     "layer": "li1",
+     "shape_ids": [
+      3,
+      4
+     ],
+     "bbox": [
+      9.21,
+      9.86,
+      9.88,
+      10.86
+     ],
+     "current": 0.13,
+     "required": 0.17,
+     "fix_hint": "move the two li1 shapes apart from 0.13 um to at least 0.17 um",
+     "min_fix_area": 0.0
+    },
+    {
+     "rule": "m1.1",
+     "layer": "met1",
+     "shape_ids": [
+      5
+     ],
+     "bbox": [
+      10.21,
+      12.86,
+      10.335,
+      14.139999999999999
+     ],
+     "current": 0.125,
+     "required": 0.14,
+     "fix_hint": "widen the met1 wire from 0.125 um to at least 0.14 um",
+     "min_fix_area": 0.0192
+    }
+   ]
+  },
+  {
+   "name": "case_027",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nand3_1"
+   ],
+   "gds": "case_027.gds",
+   "injected": [
+    {
+     "rule": "m1.5",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      -0.9400000000000001,
+      5.4399999999999995,
+      -0.6,
+      5.845
+     ],
+     "current": 0.05,
+     "required": 0.06,
+     "fix_hint": "met1 overhang of the mcon is 0.05 um (left) and 0.05 um (top); extend either the left or the top met1 edge to at least 0.06 um",
+     "min_fix_area": 0.0034
+    },
+    {
+     "rule": "m2.2",
+     "layer": "met2",
+     "shape_ids": [
+      4,
+      5
+     ],
+     "bbox": [
+      5.76,
+      7.26,
+      6.325,
+      8.26
+     ],
+     "current": 0.115,
+     "required": 0.14,
+     "fix_hint": "move the two met2 shapes apart from 0.115 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_028",
+   "cells": [
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__nor2_1"
+   ],
+   "gds": "case_028.gds",
+   "injected": [
+    {
+     "rule": "poly.2",
+     "layer": "poly",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      -0.99,
+      4.36,
+      -0.16499999999999992,
+      5.36
+     ],
+     "current": 0.155,
+     "required": 0.21,
+     "fix_hint": "move the two poly shapes apart from 0.155 um to at least 0.21 um",
+     "min_fix_area": 0.0
+    },
+    {
+     "rule": "m1.5",
+     "layer": "met1",
+     "shape_ids": [
+      3,
+      4,
+      5
+     ],
+     "bbox": [
+      3.16,
+      -2.66,
+      3.5,
+      -2.255
+     ],
+     "current": 0.03,
+     "required": 0.06,
+     "fix_hint": "met1 overhang of the mcon is 0.05 um (left) and 0.03 um (top); extend either the left or the top met1 edge to at least 0.06 um",
+     "min_fix_area": 0.0032
+    },
+    {
+     "rule": "m2.2",
+     "layer": "met2",
+     "shape_ids": [
+      6,
+      7
+     ],
+     "bbox": [
+      1.71,
+      -5.26,
+      2.245,
+      -4.26
+     ],
+     "current": 0.085,
+     "required": 0.14,
+     "fix_hint": "move the two met2 shapes apart from 0.085 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_029",
+   "cells": [
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nor2_2"
+   ],
+   "gds": "case_029.gds",
+   "injected": [
+    {
+     "rule": "m1.2",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      -0.99,
+      -3.04,
+      -0.46499999999999997,
+      -2.04
+     ],
+     "current": 0.075,
+     "required": 0.14,
+     "fix_hint": "move the two met1 shapes apart from 0.075 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    },
+    {
+     "rule": "poly.2",
+     "layer": "poly",
+     "shape_ids": [
+      3,
+      4
+     ],
+     "bbox": [
+      1.31,
+      5.56,
+      2.1,
+      6.56
+     ],
+     "current": 0.12,
+     "required": 0.21,
+     "fix_hint": "move the two poly shapes apart from 0.12 um to at least 0.21 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_030",
+   "cells": [
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nor2_1"
+   ],
+   "gds": "case_030.gds",
+   "injected": [
+    {
+     "rule": "li.6",
+     "layer": "li1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      0.31,
+      4.86,
+      0.48,
+      5.15
+     ],
+     "current": 0.0493,
+     "required": 0.0561,
+     "fix_hint": "grow the li1 island from 0.0493 um2 to at least 0.0561 um2",
+     "min_fix_area": 0.0068
+    },
+    {
+     "rule": "m1.2",
+     "layer": "met1",
+     "shape_ids": [
+      2,
+      3
+     ],
+     "bbox": [
+      4.21,
+      8.26,
+      4.77,
+      9.26
+     ],
+     "current": 0.11,
+     "required": 0.14,
+     "fix_hint": "move the two met1 shapes apart from 0.11 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    },
+    {
+     "rule": "poly.2",
+     "layer": "poly",
+     "shape_ids": [
+      4,
+      5
+     ],
+     "bbox": [
+      5.81,
+      11.06,
+      6.585,
+      12.06
+     ],
+     "current": 0.105,
+     "required": 0.21,
+     "fix_hint": "move the two poly shapes apart from 0.105 um to at least 0.21 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_031",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nand3_1"
+   ],
+   "gds": "case_031.gds",
+   "injected": [
+    {
+     "rule": "m2.6",
+     "layer": "met2",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      8.41,
+      -0.04,
+      8.61,
+      0.16999999999999998
+     ],
+     "current": 0.042,
+     "required": 0.0676,
+     "fix_hint": "grow the met2 island from 0.042 um2 to at least 0.0676 um2",
+     "min_fix_area": 0.0256
+    },
+    {
+     "rule": "li.6",
+     "layer": "li1",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      -0.99,
+      4.46,
+      -0.82,
+      4.655
+     ],
+     "current": 0.0332,
+     "required": 0.0561,
+     "fix_hint": "grow the li1 island from 0.0332 um2 to at least 0.0561 um2",
+     "min_fix_area": 0.0229
+    }
+   ]
+  },
+  {
+   "name": "case_032",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nor2_2"
+   ],
+   "gds": "case_032.gds",
+   "injected": [
+    {
+     "rule": "li.1",
+     "layer": "li1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      -0.19,
+      5.46,
+      -0.09,
+      7.0600000000000005
+     ],
+     "current": 0.1,
+     "required": 0.17,
+     "fix_hint": "widen the li1 wire from 0.1 um to at least 0.17 um",
+     "min_fix_area": 0.112
+    },
+    {
+     "rule": "m2.6",
+     "layer": "met2",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      4.71,
+      10.26,
+      4.91,
+      10.515
+     ],
+     "current": 0.051,
+     "required": 0.0676,
+     "fix_hint": "grow the met2 island from 0.051 um2 to at least 0.0676 um2",
+     "min_fix_area": 0.0166
+    },
+    {
+     "rule": "li.6",
+     "layer": "li1",
+     "shape_ids": [
+      3
+     ],
+     "bbox": [
+      8.91,
+      -3.64,
+      9.08,
+      -3.43
+     ],
+     "current": 0.0357,
+     "required": 0.0561,
+     "fix_hint": "grow the li1 island from 0.0357 um2 to at least 0.0561 um2",
+     "min_fix_area": 0.0204
+    }
+   ]
+  },
+  {
+   "name": "case_033",
+   "cells": [
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__inv_4"
+   ],
+   "gds": "case_033.gds",
+   "injected": [
+    {
+     "rule": "m2.1",
+     "layer": "met2",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      -0.99,
+      5.86,
+      -0.875,
+      7.25
+     ],
+     "current": 0.115,
+     "required": 0.14,
+     "fix_hint": "widen the met2 wire from 0.115 um to at least 0.14 um",
+     "min_fix_area": 0.0348
+    },
+    {
+     "rule": "li.1",
+     "layer": "li1",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      8.71,
+      3.16,
+      8.855,
+      4.265000000000001
+     ],
+     "current": 0.145,
+     "required": 0.17,
+     "fix_hint": "widen the li1 wire from 0.145 um to at least 0.17 um",
+     "min_fix_area": 0.0276
+    }
+   ]
+  },
+  {
+   "name": "case_034",
+   "cells": [
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__nor2_2"
+   ],
+   "gds": "case_034.gds",
+   "injected": [
+    {
+     "rule": "m1.6",
+     "layer": "met1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      6.91,
+      6.06,
+      7.11,
+      6.375
+     ],
+     "current": 0.063,
+     "required": 0.083,
+     "fix_hint": "grow the met1 island from 0.063 um2 to at least 0.083 um2",
+     "min_fix_area": 0.02
+    },
+    {
+     "rule": "m2.1",
+     "layer": "met2",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      -1.49,
+      7.46,
+      -1.405,
+      9.34
+     ],
+     "current": 0.085,
+     "required": 0.14,
+     "fix_hint": "widen the met2 wire from 0.085 um to at least 0.14 um",
+     "min_fix_area": 0.1034
+    }
+   ]
+  },
+  {
+   "name": "case_035",
+   "cells": [
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__nor2_1"
+   ],
+   "gds": "case_035.gds",
+   "injected": [
+    {
+     "rule": "poly.1a",
+     "layer": "poly",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      1.41,
+      5.86,
+      1.5,
+      7.640000000000001
+     ],
+     "current": 0.09,
+     "required": 0.15,
+     "fix_hint": "widen the poly wire from 0.09 um to at least 0.15 um",
+     "min_fix_area": 0.1068
+    },
+    {
+     "rule": "m1.6",
+     "layer": "met1",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      1.81,
+      -2.34,
+      2.0100000000000002,
+      -2.04
+     ],
+     "current": 0.06,
+     "required": 0.083,
+     "fix_hint": "grow the met1 island from 0.06 um2 to at least 0.083 um2",
+     "min_fix_area": 0.023
+    }
+   ]
+  },
+  {
+   "name": "case_036",
+   "cells": [
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__inv_4"
+   ],
+   "gds": "case_036.gds",
+   "injected": [
+    {
+     "rule": "m1.1",
+     "layer": "met1",
+     "shape_ids": [
+      1
+     ],
+     "bbox": [
+      4.01,
+      4.56,
+      4.135,
+      5.84
+     ],
+     "current": 0.125,
+     "required": 0.14,
+     "fix_hint": "widen the met1 wire from 0.125 um to at least 0.14 um",
+     "min_fix_area": 0.0192
+    },
+    {
+     "rule": "poly.1a",
+     "layer": "poly",
+     "shape_ids": [
+      2
+     ],
+     "bbox": [
+      -1.49,
+      -2.04,
+      -1.375,
+      -0.6500000000000001
+     ],
+     "current": 0.115,
+     "required": 0.15,
+     "fix_hint": "widen the poly wire from 0.115 um to at least 0.15 um",
+     "min_fix_area": 0.0486
+    }
+   ]
+  },
+  {
+   "name": "case_037",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__inv_4"
+   ],
+   "gds": "case_037.gds",
+   "injected": [
+    {
+     "rule": "li.3",
+     "layer": "li1",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      4.41,
+      5.66,
+      5.05,
+      6.66
+     ],
+     "current": 0.1,
+     "required": 0.17,
+     "fix_hint": "move the two li1 shapes apart from 0.1 um to at least 0.17 um",
+     "min_fix_area": 0.0
+    },
+    {
+     "rule": "m1.1",
+     "layer": "met1",
+     "shape_ids": [
+      3
+     ],
+     "bbox": [
+      0.41,
+      -2.74,
+      0.525,
+      -1.3500000000000003
+     ],
+     "current": 0.115,
+     "required": 0.14,
+     "fix_hint": "widen the met1 wire from 0.115 um to at least 0.14 um",
+     "min_fix_area": 0.0348
+    }
+   ]
+  },
+  {
+   "name": "case_038",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__buf_1"
+   ],
+   "gds": "case_038.gds",
+   "injected": [
+    {
+     "rule": "m2.2",
+     "layer": "met2",
+     "shape_ids": [
+      1,
+      2
+     ],
+     "bbox": [
+      -1.69,
+      5.46,
+      -1.1099999999999999,
+      6.46
+     ],
+     "current": 0.13,
+     "required": 0.14,
+     "fix_hint": "move the two met2 shapes apart from 0.13 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    },
+    {
+     "rule": "li.3",
+     "layer": "li1",
+     "shape_ids": [
+      3,
+      4
+     ],
+     "bbox": [
+      -2.09,
+      8.06,
+      -1.4449999999999998,
+      9.06
+     ],
+     "current": 0.105,
+     "required": 0.17,
+     "fix_hint": "move the two li1 shapes apart from 0.105 um to at least 0.17 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  },
+  {
+   "name": "case_039",
+   "cells": [
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__inv_4"
+   ],
+   "gds": "case_039.gds",
+   "injected": [
+    {
+     "rule": "m1.5",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      4.0600000000000005,
+      -2.2600000000000002,
+      4.4,
+      -1.855
+     ],
+     "current": 0.04,
+     "required": 0.06,
+     "fix_hint": "met1 overhang of the mcon is 0.05 um (left) and 0.04 um (top); extend either the left or the top met1 edge to at least 0.06 um",
+     "min_fix_area": 0.0033
+    },
+    {
+     "rule": "m2.2",
+     "layer": "met2",
+     "shape_ids": [
+      4,
+      5
+     ],
+     "bbox": [
+      2.21,
+      4.64,
+      2.785,
+      5.64
+     ],
+     "current": 0.125,
+     "required": 0.14,
+     "fix_hint": "move the two met2 shapes apart from 0.125 um to at least 0.14 um",
+     "min_fix_area": 0.0
+    }
+   ]
+  }
+ ]
+}

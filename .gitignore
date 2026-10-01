@@ -1,0 +1,6 @@
+pdk/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+results/*/*.gds
+.env

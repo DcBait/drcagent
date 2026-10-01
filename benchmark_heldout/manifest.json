@@ -1,0 +1,675 @@
+{
+ "seed": 1,
+ "attempts": 15,
+ "rejected": 0,
+ "cases": [
+  {
+   "name": "case_000",
+   "cells": [
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__buf_1"
+   ],
+   "gds": "case_000.gds",
+   "injected": [
+    {
+     "rule": "via.4a",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      -1.59,
+      3.56,
+      -1.24,
+      3.91
+     ],
+     "current": 0.025,
+     "required": 0.055,
+     "fix_hint": "met1 overhangs the via by only 0.025 um on the left; extend that met1 edge to at least 0.055 um",
+     "min_fix_area": 0.0105
+    }
+   ]
+  },
+  {
+   "name": "case_001",
+   "cells": [
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_1"
+   ],
+   "gds": "case_001.gds",
+   "injected": [
+    {
+     "rule": "ct.2",
+     "layer": "mcon",
+     "shape_ids": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "bbox": [
+      2.35,
+      6.0,
+      2.915,
+      6.29
+     ],
+     "current": 0.105,
+     "required": 0.19,
+     "fix_hint": "the two mcons are 0.105 um apart; move one to at least 0.19 um and extend the li1 and met1 pads to keep covering it",
+     "min_fix_area": 0.0493
+    }
+   ]
+  },
+  {
+   "name": "case_002",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__nand2_1"
+   ],
+   "gds": "case_002.gds",
+   "injected": [
+    {
+     "rule": "m2.4",
+     "layer": "met2",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      0.61,
+      -1.74,
+      0.96,
+      -1.39
+     ],
+     "current": 0.03,
+     "required": 0.055,
+     "fix_hint": "met2 overhangs the via by only 0.03 um on the left; extend that met2 edge to at least 0.055 um",
+     "min_fix_area": 0.0087
+    }
+   ]
+  },
+  {
+   "name": "case_003",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nand3_1"
+   ],
+   "gds": "case_003.gds",
+   "injected": [
+    {
+     "rule": "via.4a",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      5.91,
+      -3.8400000000000003,
+      6.26,
+      -3.49
+     ],
+     "current": 0.025,
+     "required": 0.055,
+     "fix_hint": "met1 overhangs the via by only 0.025 um on the left; extend that met1 edge to at least 0.055 um",
+     "min_fix_area": 0.0105
+    }
+   ]
+  },
+  {
+   "name": "case_004",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_1"
+   ],
+   "gds": "case_004.gds",
+   "injected": [
+    {
+     "rule": "ct.2",
+     "layer": "mcon",
+     "shape_ids": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "bbox": [
+      4.050000000000001,
+      4.1000000000000005,
+      4.625,
+      4.390000000000001
+     ],
+     "current": 0.115,
+     "required": 0.19,
+     "fix_hint": "the two mcons are 0.115 um apart; move one to at least 0.19 um and extend the li1 and met1 pads to keep covering it",
+     "min_fix_area": 0.0435
+    }
+   ]
+  },
+  {
+   "name": "case_005",
+   "cells": [
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__nor2_2"
+   ],
+   "gds": "case_005.gds",
+   "injected": [
+    {
+     "rule": "m2.4",
+     "layer": "met2",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      6.11,
+      4.5600000000000005,
+      6.46,
+      4.91
+     ],
+     "current": 0.02,
+     "required": 0.055,
+     "fix_hint": "met2 overhangs the via by only 0.02 um on the left; extend that met2 edge to at least 0.055 um",
+     "min_fix_area": 0.0123
+    }
+   ]
+  },
+  {
+   "name": "case_006",
+   "cells": [
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__nand3_1"
+   ],
+   "gds": "case_006.gds",
+   "injected": [
+    {
+     "rule": "via.4a",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      7.510000000000001,
+      0.76,
+      7.86,
+      1.1099999999999999
+     ],
+     "current": 0.03,
+     "required": 0.055,
+     "fix_hint": "met1 overhangs the via by only 0.03 um on the left; extend that met1 edge to at least 0.055 um",
+     "min_fix_area": 0.0087
+    }
+   ]
+  },
+  {
+   "name": "case_007",
+   "cells": [
+    "sky130_fd_sc_hd__inv_4",
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_1"
+   ],
+   "gds": "case_007.gds",
+   "injected": [
+    {
+     "rule": "ct.2",
+     "layer": "mcon",
+     "shape_ids": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "bbox": [
+      5.45,
+      -2.9,
+      6.09,
+      -2.61
+     ],
+     "current": 0.18,
+     "required": 0.19,
+     "fix_hint": "the two mcons are 0.18 um apart; move one to at least 0.19 um and extend the li1 and met1 pads to keep covering it",
+     "min_fix_area": 0.0058
+    },
+    {
+     "rule": "via.4a",
+     "layer": "met1",
+     "shape_ids": [
+      5,
+      6,
+      7
+     ],
+     "bbox": [
+      2.81,
+      -4.5,
+      3.16,
+      -4.15
+     ],
+     "current": 0.035,
+     "required": 0.055,
+     "fix_hint": "met1 overhangs the via by only 0.035 um on the left; extend that met1 edge to at least 0.055 um",
+     "min_fix_area": 0.007
+    }
+   ]
+  },
+  {
+   "name": "case_008",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_2",
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__inv_4"
+   ],
+   "gds": "case_008.gds",
+   "injected": [
+    {
+     "rule": "m2.4",
+     "layer": "met2",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      -1.6900000000000002,
+      3.36,
+      -1.34,
+      3.71
+     ],
+     "current": 0.025,
+     "required": 0.055,
+     "fix_hint": "met2 overhangs the via by only 0.025 um on the left; extend that met2 edge to at least 0.055 um",
+     "min_fix_area": 0.0105
+    },
+    {
+     "rule": "ct.2",
+     "layer": "mcon",
+     "shape_ids": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "bbox": [
+      -1.6500000000000001,
+      -3.4,
+      -1.07,
+      -3.11
+     ],
+     "current": 0.12,
+     "required": 0.19,
+     "fix_hint": "the two mcons are 0.12 um apart; move one to at least 0.19 um and extend the li1 and met1 pads to keep covering it",
+     "min_fix_area": 0.0406
+    },
+    {
+     "rule": "via.4a",
+     "layer": "met1",
+     "shape_ids": [
+      8,
+      9,
+      10
+     ],
+     "bbox": [
+      -2.89,
+      6.1000000000000005,
+      -2.54,
+      6.45
+     ],
+     "current": 0.03,
+     "required": 0.055,
+     "fix_hint": "met1 overhangs the via by only 0.03 um on the left; extend that met1 edge to at least 0.055 um",
+     "min_fix_area": 0.0087
+    }
+   ]
+  },
+  {
+   "name": "case_009",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__inv_1"
+   ],
+   "gds": "case_009.gds",
+   "injected": [
+    {
+     "rule": "via.4a",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      -1.6900000000000002,
+      -3.14,
+      -1.34,
+      -2.79
+     ],
+     "current": 0.035,
+     "required": 0.055,
+     "fix_hint": "met1 overhangs the via by only 0.035 um on the left; extend that met1 edge to at least 0.055 um",
+     "min_fix_area": 0.007
+    },
+    {
+     "rule": "m2.4",
+     "layer": "met2",
+     "shape_ids": [
+      4,
+      5,
+      6
+     ],
+     "bbox": [
+      2.61,
+      5.96,
+      2.96,
+      6.31
+     ],
+     "current": 0.025,
+     "required": 0.055,
+     "fix_hint": "met2 overhangs the via by only 0.025 um on the left; extend that met2 edge to at least 0.055 um",
+     "min_fix_area": 0.0105
+    },
+    {
+     "rule": "ct.2",
+     "layer": "mcon",
+     "shape_ids": [
+      7,
+      8,
+      9,
+      10
+     ],
+     "bbox": [
+      -2.95,
+      -6.6,
+      -2.335,
+      -6.31
+     ],
+     "current": 0.155,
+     "required": 0.19,
+     "fix_hint": "the two mcons are 0.155 um apart; move one to at least 0.19 um and extend the li1 and met1 pads to keep covering it",
+     "min_fix_area": 0.0203
+    }
+   ]
+  },
+  {
+   "name": "case_010",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__nand2_1"
+   ],
+   "gds": "case_010.gds",
+   "injected": [
+    {
+     "rule": "ct.2",
+     "layer": "mcon",
+     "shape_ids": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "bbox": [
+      6.65,
+      -3.7,
+      7.275,
+      -3.41
+     ],
+     "current": 0.165,
+     "required": 0.19,
+     "fix_hint": "the two mcons are 0.165 um apart; move one to at least 0.19 um and extend the li1 and met1 pads to keep covering it",
+     "min_fix_area": 0.0145
+    },
+    {
+     "rule": "via.4a",
+     "layer": "met1",
+     "shape_ids": [
+      5,
+      6,
+      7
+     ],
+     "bbox": [
+      -1.6900000000000002,
+      -3.3000000000000003,
+      -1.34,
+      -2.95
+     ],
+     "current": 0.04,
+     "required": 0.055,
+     "fix_hint": "met1 overhangs the via by only 0.04 um on the left; extend that met1 edge to at least 0.055 um",
+     "min_fix_area": 0.0052
+    }
+   ]
+  },
+  {
+   "name": "case_011",
+   "cells": [
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__inv_1",
+    "sky130_fd_sc_hd__inv_4"
+   ],
+   "gds": "case_011.gds",
+   "injected": [
+    {
+     "rule": "m2.4",
+     "layer": "met2",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      5.71,
+      4.760000000000001,
+      6.06,
+      5.11
+     ],
+     "current": 0.03,
+     "required": 0.055,
+     "fix_hint": "met2 overhangs the via by only 0.03 um on the left; extend that met2 edge to at least 0.055 um",
+     "min_fix_area": 0.0087
+    },
+    {
+     "rule": "ct.2",
+     "layer": "mcon",
+     "shape_ids": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "bbox": [
+      7.3500000000000005,
+      7.9,
+      7.925,
+      8.19
+     ],
+     "current": 0.115,
+     "required": 0.19,
+     "fix_hint": "the two mcons are 0.115 um apart; move one to at least 0.19 um and extend the li1 and met1 pads to keep covering it",
+     "min_fix_area": 0.0435
+    }
+   ]
+  },
+  {
+   "name": "case_012",
+   "cells": [
+    "sky130_fd_sc_hd__inv_2",
+    "sky130_fd_sc_hd__nand2_1",
+    "sky130_fd_sc_hd__inv_4"
+   ],
+   "gds": "case_012.gds",
+   "injected": [
+    {
+     "rule": "via.4a",
+     "layer": "met1",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      6.8100000000000005,
+      5.86,
+      7.16,
+      6.21
+     ],
+     "current": 0.025,
+     "required": 0.055,
+     "fix_hint": "met1 overhangs the via by only 0.025 um on the left; extend that met1 edge to at least 0.055 um",
+     "min_fix_area": 0.0105
+    },
+    {
+     "rule": "m2.4",
+     "layer": "met2",
+     "shape_ids": [
+      4,
+      5,
+      6
+     ],
+     "bbox": [
+      6.71,
+      7.66,
+      7.06,
+      8.01
+     ],
+     "current": 0.025,
+     "required": 0.055,
+     "fix_hint": "met2 overhangs the via by only 0.025 um on the left; extend that met2 edge to at least 0.055 um",
+     "min_fix_area": 0.0105
+    }
+   ]
+  },
+  {
+   "name": "case_013",
+   "cells": [
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__nand2_2",
+    "sky130_fd_sc_hd__inv_2"
+   ],
+   "gds": "case_013.gds",
+   "injected": [
+    {
+     "rule": "ct.2",
+     "layer": "mcon",
+     "shape_ids": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "bbox": [
+      7.050000000000001,
+      0.1,
+      7.625,
+      0.39
+     ],
+     "current": 0.115,
+     "required": 0.19,
+     "fix_hint": "the two mcons are 0.115 um apart; move one to at least 0.19 um and extend the li1 and met1 pads to keep covering it",
+     "min_fix_area": 0.0435
+    },
+    {
+     "rule": "via.4a",
+     "layer": "met1",
+     "shape_ids": [
+      5,
+      6,
+      7
+     ],
+     "bbox": [
+      1.21,
+      5.86,
+      1.56,
+      6.21
+     ],
+     "current": 0.025,
+     "required": 0.055,
+     "fix_hint": "met1 overhangs the via by only 0.025 um on the left; extend that met1 edge to at least 0.055 um",
+     "min_fix_area": 0.0105
+    },
+    {
+     "rule": "m2.4",
+     "layer": "met2",
+     "shape_ids": [
+      8,
+      9,
+      10
+     ],
+     "bbox": [
+      1.01,
+      -1.84,
+      1.36,
+      -1.49
+     ],
+     "current": 0.045,
+     "required": 0.055,
+     "fix_hint": "met2 overhangs the via by only 0.045 um on the left; extend that met2 edge to at least 0.055 um",
+     "min_fix_area": 0.0035
+    }
+   ]
+  },
+  {
+   "name": "case_014",
+   "cells": [
+    "sky130_fd_sc_hd__nor2_1",
+    "sky130_fd_sc_hd__nand3_1",
+    "sky130_fd_sc_hd__inv_1"
+   ],
+   "gds": "case_014.gds",
+   "injected": [
+    {
+     "rule": "m2.4",
+     "layer": "met2",
+     "shape_ids": [
+      1,
+      2,
+      3
+     ],
+     "bbox": [
+      4.41,
+      4.66,
+      4.76,
+      5.01
+     ],
+     "current": 0.035,
+     "required": 0.055,
+     "fix_hint": "met2 overhangs the via by only 0.035 um on the left; extend that met2 edge to at least 0.055 um",
+     "min_fix_area": 0.007
+    },
+    {
+     "rule": "ct.2",
+     "layer": "mcon",
+     "shape_ids": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "bbox": [
+      -0.15,
+      7.1000000000000005,
+      0.42000000000000004,
+      7.390000000000001
+     ],
+     "current": 0.11,
+     "required": 0.19,
+     "fix_hint": "the two mcons are 0.11 um apart; move one to at least 0.19 um and extend the li1 and met1 pads to keep covering it",
+     "min_fix_area": 0.0464
+    }
+   ]
+  }
+ ]
+}

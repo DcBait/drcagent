@@ -1,0 +1,261 @@
+{
+ "summary": {
+  "method": "baseline",
+  "model": null,
+  "cases": 15,
+  "violations": 26,
+  "clean_rate": 0.0,
+  "mean_edits_per_violation": 0.0,
+  "area_changed_um2": 0.0,
+  "min_fix_area_um2": 0.4577
+ },
+ "cases": [
+  {
+   "case": "case_000",
+   "rules": [
+    "via.4a"
+   ],
+   "clean": false,
+   "remaining": {
+    "via.4a": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0105
+  },
+  {
+   "case": "case_001",
+   "rules": [
+    "ct.2"
+   ],
+   "clean": false,
+   "remaining": {
+    "ct.2": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0493
+  },
+  {
+   "case": "case_002",
+   "rules": [
+    "m2.4"
+   ],
+   "clean": false,
+   "remaining": {
+    "m2.4": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0087
+  },
+  {
+   "case": "case_003",
+   "rules": [
+    "via.4a"
+   ],
+   "clean": false,
+   "remaining": {
+    "via.4a": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0105
+  },
+  {
+   "case": "case_004",
+   "rules": [
+    "ct.2"
+   ],
+   "clean": false,
+   "remaining": {
+    "ct.2": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0435
+  },
+  {
+   "case": "case_005",
+   "rules": [
+    "m2.4"
+   ],
+   "clean": false,
+   "remaining": {
+    "m2.4": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0123
+  },
+  {
+   "case": "case_006",
+   "rules": [
+    "via.4a"
+   ],
+   "clean": false,
+   "remaining": {
+    "via.4a": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0087
+  },
+  {
+   "case": "case_007",
+   "rules": [
+    "ct.2",
+    "via.4a"
+   ],
+   "clean": false,
+   "remaining": {
+    "ct.2": 1,
+    "via.4a": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0128
+  },
+  {
+   "case": "case_008",
+   "rules": [
+    "m2.4",
+    "ct.2",
+    "via.4a"
+   ],
+   "clean": false,
+   "remaining": {
+    "ct.2": 1,
+    "via.4a": 1,
+    "m2.4": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0598
+  },
+  {
+   "case": "case_009",
+   "rules": [
+    "via.4a",
+    "m2.4",
+    "ct.2"
+   ],
+   "clean": false,
+   "remaining": {
+    "ct.2": 1,
+    "via.4a": 1,
+    "m2.4": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0378
+  },
+  {
+   "case": "case_010",
+   "rules": [
+    "ct.2",
+    "via.4a"
+   ],
+   "clean": false,
+   "remaining": {
+    "ct.2": 1,
+    "via.4a": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0197
+  },
+  {
+   "case": "case_011",
+   "rules": [
+    "m2.4",
+    "ct.2"
+   ],
+   "clean": false,
+   "remaining": {
+    "ct.2": 1,
+    "m2.4": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0522
+  },
+  {
+   "case": "case_012",
+   "rules": [
+    "via.4a",
+    "m2.4"
+   ],
+   "clean": false,
+   "remaining": {
+    "via.4a": 1,
+    "m2.4": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.021
+  },
+  {
+   "case": "case_013",
+   "rules": [
+    "ct.2",
+    "via.4a",
+    "m2.4"
+   ],
+   "clean": false,
+   "remaining": {
+    "ct.2": 1,
+    "via.4a": 1,
+    "m2.4": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0575
+  },
+  {
+   "case": "case_014",
+   "rules": [
+    "m2.4",
+    "ct.2"
+   ],
+   "clean": false,
+   "remaining": {
+    "ct.2": 1,
+    "m2.4": 1
+   },
+   "drc_runs": 4,
+   "edits": 0,
+   "area_changed_um2": 0.0,
+   "moved_um": 0.0,
+   "min_fix_area_um2": 0.0534
+  }
+ ]
+}

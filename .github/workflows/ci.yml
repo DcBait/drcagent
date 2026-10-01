@@ -1,0 +1,16 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install KLayout (DRC engine)
+        run: sudo apt-get update && sudo apt-get install -y klayout
+      - run: pip install -e ".[dev]"
+      - name: Fetch sky130 PDK files
+        run: bash scripts/fetch_pdk.sh
+      - run: pytest -q

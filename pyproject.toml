@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drcagent"
+version = "0.1.0"
+description = "An LLM agent that triages and fixes sky130 DRC violations, verified by the real DRC deck"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["klayout>=0.28", "anthropic>=0.40", "openai>=1.40", "google-genai>=1.0", "truststore>=0.9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "matplotlib>=3.7"]
+
+[tool.setuptools]
+packages = ["drcagent"]
